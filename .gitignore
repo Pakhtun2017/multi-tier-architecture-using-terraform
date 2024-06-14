@@ -1,0 +1,25 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Terraform configuration lock file
+.terraform.lock.hcl
+
+# Directory for Terraform's local state storage
+.terraform/
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually local-only configuration
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+*.tfvars
+
+# Ignore editor specific files
+.vscode/
+
+
